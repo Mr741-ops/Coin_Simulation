@@ -1,10 +1,10 @@
 public class Exercicio_6_5 {
 	public static void main(String[] args) {
-		int dobragens = dobrarPapel(pedirNumero());
-		System.out.println("Dobragens= " + dobragens);
+		dobrarPapel(pedirNumero());
+		
 	}
 
-	public static int dobrarPapel(double espessura) {
+	public static void dobrarPapel(double espessura) {
 		int dobragens = 0;
 		double soma =0.074;
 		
@@ -15,7 +15,7 @@ public class Exercicio_6_5 {
 			dobragens++;
 		}
 
-		return dobragens;
+		System.out.println("Dobragens= " + dobragens);
 	}
 	
 	public static double pedirNumero(){
