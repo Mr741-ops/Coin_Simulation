@@ -1,7 +1,6 @@
 public class Exercicio_6_5 {
 	public static void main(String[] args) {
 		dobrarPapel(pedirNumero());
-		
 	}
 
 	public static void dobrarPapel(double espessura) {
