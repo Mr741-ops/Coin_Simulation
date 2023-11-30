@@ -24,6 +24,6 @@ public class Exercicio_5_9 {
 	
 	public static void escrever() {
 		System.out.println("Cara: " + cara +
-						   "\nCoroa: " + coroa);
+				   "\nCoroa: " + coroa);
 	}
 }
